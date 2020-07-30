@@ -1,0 +1,17 @@
+{
+  "name": "sms-module-aws-sns",
+  "version": "1.0.0",
+  "description": "An sms module that utilises aws sns",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "CaptainLazarus",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.480.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
